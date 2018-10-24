@@ -7,10 +7,11 @@ html,body{
 margin:0;
 padding:0;
 font-family: 'Open Sans', sans-serif;
-background: #fff url(../images/bg.jpg) center top no-repeat;
+background: #333 url(../images/bg.jpg) center top no-repeat;
 background-size: cover;
 height: 100%;
 width: 100%;
+color: #fff;
 }
 
 
@@ -44,13 +45,15 @@ font-family: 'Open Sans', sans-serif;
 color: #fff;
 text-align: center;
 font-size: 50px;
+line-height: 60px;
 font-weight: 300;
-margin: 0 0 10px 0;
+margin: 0 20px 10px 20px;
 }
 
 
 h1 strong{
 font-size: 38px;
+line-height: 42px;
 font-weight: 700;
 }
 
@@ -58,7 +61,9 @@ h2{
 	text-align: center;
 	font-weight: 300;
 	font-size: 20px;
+	line-height: 28px;
 		color: #ffffff;
+	padding: 0 20px;
 
 }
 
@@ -76,6 +81,7 @@ margin: 0 auto;
 
 h3{
 font-size: 28px;
+line-height: 36px;
 font-weight: 600;
 color: #ffffff;
 }
@@ -90,7 +96,10 @@ display: block;
 position: relative;
 width: 478px;
 margin-top: 20px;
+font-size: 12px;
+text-align: center;
 }
+/* .form:after {content: "By joining the Ruuvi Community, you agree to occasionally receive news from Ruuvi. You can unsubscribe anytime. For info about how we manage your data, view our Privacy Policy.";} */
 
 .field{
 background: url(../images/field.png) repeat;
@@ -162,3 +171,8 @@ a:hover {
 .g-recaptcha, .g-recaptcha > div {
   margin: auto;
 }
+
+.footer {max-width: 550px; margin: 0 auto; float: none; text-align: center; font-size: 12px; line-height: 18px; padding: 30px 20px;
+}
+.footer a, .footer a:visited {color: #fff;}
+.footer a:hover {opacity: 0.8;}
